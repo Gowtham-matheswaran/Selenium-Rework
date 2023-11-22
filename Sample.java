@@ -13,7 +13,7 @@ public class Sample {
 		co.addArguments("start-maximized");
 		WebDriver driver=new ChromeDriver(co);
 		driver.get("https://www.facebook.com/");
-		
+		driver.close();
 
 	}
 }
