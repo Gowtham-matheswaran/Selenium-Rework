@@ -14,7 +14,7 @@ public class Sample {
 		WebDriver driver=new ChromeDriver(co);
 		driver.get("https://www.facebook.com/");
 		driver.close();
-		
+		Thread.sleep(3000);
 		driver.quit();
 
 		
