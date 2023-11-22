@@ -16,6 +16,9 @@ public class Sample {
 		driver.close();
 		
 		driver.quit();
+		
+		Thread.sleep(5000);
+		driver.quit();
 
 		
 	}
